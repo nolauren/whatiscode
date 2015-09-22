@@ -67,7 +67,7 @@ Let's look at R:
 
 
  for(x in 1:10) {
- print (x)
+   print (x)
  }
 ```
 # Compiled Languages
@@ -81,7 +81,8 @@ Let's look at an example.
 #include <stdio.h>
 
  int main() {
- 
+
+ int i;
  for (i=0; i < 10; i++)
  {
   printf("%d\n", i);
@@ -89,8 +90,7 @@ Let's look at an example.
  
  return 0;
 }
-
-'''
+```
 
 And now let's compile this program. 
 
