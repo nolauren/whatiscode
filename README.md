@@ -93,11 +93,14 @@ Let's look at an example.
 ```
 
 And now let's compile this program. 
-
+```{sh}
 gcc 110.c
+```
 
 Now we see it creates a.out, which is our program. Now let's look at our program.
-./a.out
 
+```{sh}
+./a.out
+```
 
 
