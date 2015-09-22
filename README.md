@@ -26,7 +26,7 @@ Ford, Paul. ["What is Code?"](http://www.webopedia.com/TERM/C/code.html) Bloombe
 
 # Code is Plural
  
-Code is not a single term. It is a "big tent" as we like to say about Digital Humanities. For our purposes, we are going to look at two categories - markup languages and source code. Keep in mind that exactly how they are categorized is a point of debate.
+Code is not a single term. It is a "big tent" as we like to say about Digital Humanities. For our purposes, we are going to look at two categories - markup languages and scripting languages. Keep in mind that exactly how they are categorized is a point of debate.
 
 # Markup Languages
 
@@ -55,4 +55,49 @@ TEI is just one way to markup.  For example, the document converter program Pand
 
 
 
-# Source Code
+# Scripting Languages
+
+It is a language that gets called inside of another program. The focus is on having an existing program act in a way you'd like through scripts.  You tell a program what to do. 
+
+Ex. R
+
+Let's look at R:
+```{r}
+ print ("hello world")
+
+
+ for(x in 1:10) {
+ print (x)
+ }
+```
+# Compiled Languages
+It is a language that gets converted directly into machine code. You tell a computer what to do. 
+
+Ex. C
+
+Let's look at an example.
+
+```{c}
+#include <stdio.h>
+
+ int main() {
+ 
+ for (i=0; i < 10; i++)
+ {
+  printf("%d\n", i);
+ }
+ 
+ return 0;
+}
+
+'''
+
+And now let's compile this program. 
+
+gcc 110.c
+
+Now we see it creates a.out, which is our program. Now let's look at our program.
+./a.out
+
+
+
