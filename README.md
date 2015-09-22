@@ -103,4 +103,6 @@ Now we see it creates a.out, which is our program. Now let's look at our program
 ./a.out
 ```
 
+And for those who want to see what happens when you compile C, [ check this out!](http://gcc.godbolt.org/)
 
+Now, it's your turn to play with some code. 
