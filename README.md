@@ -50,6 +50,8 @@ So, let's look at an example:
 
 [Dedication: To Edward John Trelawny. ](http://webapp1.dlib.indiana.edu/swinburne/view#docId=swinburne/acs0000001-03-i098.xml;query=Dedication:%20To%20John%20Trelawny;brand=swinburne)
 
+[TEI Rules. ](http://wwp.northeastern.edu/outreach/seminars/_current/handouts/tei_samples/swinburne/items_within_volumes/acs0000001-03-i098.xml)
+
 TEI is just one way to markup.  For example, the document converter program Pandocs can move between a large number of markup languages. Here is a diagram:
 ![](http://s3.amazonaws.com/bundlr-app-production/content_images/images/large/53734e328a9d53000200000e/diagram.png?1400065587 "Markup Languages. Courtesy: Pandocs")
 
